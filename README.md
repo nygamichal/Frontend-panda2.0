@@ -17,3 +17,8 @@ By selecting different branches you can get the sample code that you should have
 | tests | Testy | Added unit tests and requirements |
 | jenkinsfile | CI/CD 5 | Added Jenkinsfile, sonarqube project properties|
 | final | CI/CD 6 | Dockerhub deployment |
+
+
+INFO
+Execute tests by command:
+python3 -m pytest --cov=. --cov-report xml:testresults/coverage.xml --junitxml=test-results/pytestreport.xml
